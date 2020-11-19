@@ -16,7 +16,7 @@ public class Main {
 
         for (int i = 0; i < str.length; i++) {
             for (int j = 0; j < str.length; j++) {
-                str [i][j] = "30";
+                str [i][j] = "1";
             }
         }
 
