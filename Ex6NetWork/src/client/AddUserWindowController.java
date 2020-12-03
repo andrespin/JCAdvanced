@@ -5,7 +5,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
-public class AddUserWindow {
+
+public class AddUserWindowController extends Controller {
 
     @FXML
     private Button addNewUser;
@@ -16,8 +17,8 @@ public class AddUserWindow {
     @FXML
     public void addNewUser(ActionEvent actionEvent) {
         if (textField.getText() != "") {
-            client.Client.USERS_TEST_DATA.add(textField.getText());
-
+//            client.Client.USERS_TEST_DATA.add(textField.getText());
+            getPrimaryStage().close();
         } else {
             Client.showErrorMessage("Ошибка","Заполните поле", "Поле не заполнено");
         }

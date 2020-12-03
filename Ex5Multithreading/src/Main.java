@@ -35,8 +35,6 @@ arr[i] = (float)(arr[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math
 
  */
 
-import java.util.concurrent.TimeUnit;
-
 public class Main {
 
     static final private int size = 10000000;
