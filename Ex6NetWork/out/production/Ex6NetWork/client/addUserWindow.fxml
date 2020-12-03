@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--
+fx:controller="client.AddUserWindowController
+-->
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="client.AddUserWindowController">
+   <children>
+      <Label layoutX="55.0" layoutY="69.0" text="Добавьте инициалы пользователя" />
+      <TextField fx:id="textField" layoutX="33.0" layoutY="87.0" prefHeight="25.0" prefWidth="233.0" />
+      <Button fx:id="btnAdd" layoutX="115.0" layoutY="129.0" mnemonicParsing="false" onAction="#addNewUser" text="Добавить" />
+   </children>
+</AnchorPane>
